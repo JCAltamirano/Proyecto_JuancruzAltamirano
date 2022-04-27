@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styleformarparte.css">
+        <link rel="stylesheet" href="css/styleindex.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <h1>Discografica West Side</h1>
+    <header class="header">
+        <nav class="headerNav animate__animated animate__backInLeft">
+            <a href="../index.html">Inicio</a>
+            <a href="artistasimportantes.html">Nuestros Artistas Insigña</a>
+            <a href="discoshit.html">Nuestros Mejores discos</a>
+            <a href="formarparte.html">¿Queres formar parte de West Side?</a>
+            <a href="#pie">Como contactarnos</a>
+        <nav>
+    </header>
+    <img class="imgcentral" src="../img/imagenformulario.jpg"><!--Imagen con un resumen de los trabajos q esta empresa estaria buscando-->
+    <form class="formulario">
+        <fieldset>
+            <legend>Formulario de contacto</legend><!--Formulario para conocer a las personas que quieran aplicar a la oferta de trabajo-->
+            <label for="nombre_apellido">Nombre:</label>
+            <input type="text"name= "nombre" placeholder="escriba aqui su nombre">
+            <label for="nombre_apellido">Apellido:</label>
+            <input type="text"name= "apellido" placeholder="escriba aqui su apellido">
+            <label for="edad">Edad:</label>
+            <input type="text"name= "edad" placeholder="escriba aqui su edad">
+            <label for="nacionalidad">Nacionalidad:</label>
+            <input type="text"name= "nacionalidad" placeholder="escriba aqui su nacionalidad">
+            <select class="selector" name="trabajo">
+                <option value="seleccionar">Seleccionar puesto de trabajo</option>
+                <option value="productor">Productor</option>
+                <option value="abogado">Abogado</option>
+                <option value="artista">Artista</option>
+            </select>
+            <div>Nos gustaria saber porque quiere trabajar con nosotros:</div>
+            <textarea name="text" cols="150" rows="10" placeholder="Nos gustaria saber porque quiere trabajar con nosotros"></textarea>
+            <div>
+                Acepta Terminos y condiciones?
+                <input type="checkbox" name="check"> 
+            </div>
+            <input type="submit"value="Enviar formulario">
+            <input type="reset"value="Limpiar formulario">
+        </fieldset>
+    </form>
+    <footer id="pie" class="footer">
+        <p2>
+            Nuestro numero de contacto: +54 1169365878.
+            Nuestro correo electronico: Westsidemusiccorp@gmail.com 
+        </p2>
+</footer>
+</body>
+</html>

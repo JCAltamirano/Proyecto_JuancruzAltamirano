@@ -1,0 +1,172 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(19, 230, 71), black)
+}
+nav {
+    text-align: center;
+}
+nav a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background-color: greenyellow;
+    text-decoration: none;
+    font-size: large;
+    border: 1px solid black;
+    padding: 5px; 
+    margin: 5px;
+}
+h1{
+    -webkit-text-stroke: 1.5px black; 
+    text-align: center;
+    color: greenyellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    margin-top: 210px;
+    padding: 0px;
+    border: 2px solid black;
+    background-color: greenyellow;
+}
+.h2mejoresdiscos{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background-color: greenyellow;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+.grid-container{
+    background-color: yellowgreen;
+    display: grid;
+    border: 2px solid black;
+    grid-template-areas: 
+    "tracklist1 sintesis1 duki"
+    "tracklist2 sintesis2 trueno"
+    "tracklist3 sintesis3 rauw"
+    "tracklist4 sintesis4 rosalia"
+    ;
+    grid-template-rows: repeat(4, 500px);
+    grid-template-columns: repeat(3, 33.3%)
+}
+.duki{
+    grid-area: duki;
+    background-color: yellowgreen;
+
+}
+.trueno{
+    grid-area: trueno;
+    background-color: yellowgreen;
+}
+.rosalia{
+    grid-area: rosalia;
+    background-color: yellowgreen;
+}
+.rauw{
+    grid-area: rauw;
+    background-color: yellowgreen;
+}
+.tracklist1{
+    grid-area: tracklist1;
+    background-color: yellowgreen;
+}
+.tracklist2{
+    grid-area: tracklist2;
+    background-color: yellowgreen;
+}
+.tracklist3{
+    grid-area: tracklist3;
+    background-color: yellowgreen;
+}
+.tracklist4{
+    background-color: yellowgreen;
+    grid-area: tracklist4
+}
+.sintesis1{
+    grid-area: sintesis1;
+    background-color: yellowgreen;
+}
+.sintesis2{
+    grid-area: sintesis2;
+    background-color: yellowgreen;
+}
+.sintesis3{
+    grid-area: sintesis3;
+    background-color: yellowgreen;
+}
+.sintesis4{
+    grid-area: sintesis4;
+    background-color: yellowgreen;
+}
+
+.imgduki{
+    margin-left: 165px;
+    margin-top: 10px;
+    width: 450px;
+    border: 2px solid black;
+}
+.h2tracklist{
+    margin: 0px;
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.h2sintesis{
+    margin: 0px;
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.tracklist1{
+    font-size: 100%;
+    margin: 0px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ol{
+    margin: 0px;
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.imgtr1{
+    margin-left: 165px;
+    margin-top: 10px;
+    width: 450px;
+    border: 2px solid black;
+}
+.imgrauw{
+    margin-left: 165px;
+    margin-top: 10px;
+    width: 450px;
+    border: 2px solid black;
+}
+.imgrosalia{
+    margin-left: 165px;
+    margin-top: 10px;
+    width: 450px;
+    border: 2px solid black;
+}
+.pduki{
+    font-size: 95%;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ptrueno{
+    font-size: 95%;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.prauw{
+    font-size: 95%;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.prosalia{
+    font-size: 95%;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
