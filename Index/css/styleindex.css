@@ -1,24 +1,19 @@
 body{
-    background-image: linear-gradient(to bottom, rgb(19, 230, 71), black)
+    background-image: linear-gradient(to bottom, black, yellowgreen)
 }
-nav {
-    text-align: center;
-}
-nav a{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    background-color: greenyellow;
-    text-decoration: none;
-    font-size: large;
-    border: 1px solid black;
-    padding: 5px; 
-    margin: 5px;
-}
-h1{
-    -webkit-text-stroke: 1.5px black; 
+.navbar-brand{
     text-align: center;
     color: greenyellow;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link{
+    color: greenyellow;
+}
+.nav-link:hover{
+    color: white;
 }
 .imgfront{
     display: block;
@@ -32,13 +27,6 @@ footer{
     font-size: medium;
     margin-top: 210px;
     padding: 0px;
-    border: 2px solid black;
-    background-color: greenyellow;
-}
-ul{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 1px;
-    margin-right: 1625px;
     border: 2px solid black;
     background-color: greenyellow;
 }
