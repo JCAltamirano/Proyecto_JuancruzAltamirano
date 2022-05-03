@@ -1,24 +1,13 @@
 body{
     background-image: linear-gradient(to bottom, black, yellowgreen)
 }
-nav {
-    text-align: center;
-}
-nav a{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    background-color: greenyellow;
-    text-decoration: none;
-    font-size: large;
-    border: 1px solid black;
-    padding: 5px; 
-    margin: 5px;
-}
-h1{
-    -webkit-text-stroke: 1.5px black; 
+.navbar-brand{
     text-align: center;
     color: greenyellow;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar-brand:hover{
+    color: white;
 }
 footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -39,17 +28,17 @@ footer{
     margin-right: 600px;
 }
 .grid-container{
-    background-color: yellowgreen;
     display: grid;
-    border: 2px solid black;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: repeat(4, 500px);
     grid-template-areas: 
     "tracklist1 sintesis1 duki"
     "tracklist2 sintesis2 trueno"
     "tracklist3 sintesis3 rauw"
     "tracklist4 sintesis4 rosalia"
     ;
-    grid-template-rows: repeat(4, 500px);
-    grid-template-columns: repeat(3, 33.3%)
+    background-color: yellowgreen;
+    border: 2px solid black;
 }
 .duki{
     grid-area: duki;
@@ -100,13 +89,6 @@ footer{
     grid-area: sintesis4;
     background-color: yellowgreen;
 }
-
-.imgduki{
-    margin-left: 165px;
-    margin-top: 10px;
-    width: 450px;
-    border: 2px solid black;
-}
 .h2tracklist{
     margin: 0px;
     text-align: center;
@@ -131,7 +113,12 @@ ol{
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+.imgduki{
+    margin-left: 165px;
+    margin-top: 10px;
+    width: 450px;
+    border: 2px solid black;
+}
 .imgtr1{
     margin-left: 165px;
     margin-top: 10px;
@@ -150,23 +137,116 @@ ol{
     width: 450px;
     border: 2px solid black;
 }
-.pduki{
+.pduk{
     font-size: 95%;
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.ptrueno{
+.ptru{
     font-size: 95%;
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.prauw{
+.prau{
     font-size: 95%;
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.prosalia{
+.prosa{
     font-size: 95%;
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media screen and (max-width: 768px){
+    .h2mejoresdiscos{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background-color: greenyellow;
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 0px;
+}
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(4, 500px);
+        grid-template-areas: 
+        "duki duki"
+        "sintesis1 sintesis1"
+        "tracklist1 tracklist1"
+        "trueno trueno"
+        "sintesis2 sintesis2"
+        "tracklist2 tracklist2"
+        "rauw rauw"
+        "sintesis3 sintesis3"
+        "tracklist3 tracklist3"
+        "rosalia rosalia"
+        "sintesis4 sintesis4"
+        "tracklist4 tracklist4"
+        ;
+        border: 1px solid black;
+        gap: 1px 1px ;
+    }
+    .tracklist1{
+        grid-area: tracklist1;
+    }
+    .duki{
+        grid-area: duki;
+    }
+    .tracklist2{
+        grid-area: tracklist2;
+    }
+    .tr1{
+        grid-area: trueno;
+    }
+    .tracklist3{
+        grid-area: tracklist3;
+    }
+    .rauw{
+        grid-area: rauw;
+    }
+    .tracklist4{
+        grid-area: tracklist4;
+    }
+    .rosalia{
+        grid-area: rosalia;
+    }
+    ol{
+        margin: 0px;
+        text-align: center;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .imgduki{
+        margin-left: 165px;
+        margin-top: 100px;
+        width: 450px;
+        border: 2px solid black;
+    }
+    .imgtr1{
+        margin-left: 165px;
+        margin-top: 10px;
+        width: 450px;
+        border: 2px solid black;
+    }
+    .imgrauw{
+        margin-left: 165px;
+        margin-top: 10px;
+        width: 450px;
+        border: 2px solid black;
+    }
+    .imgrosalia{
+        margin-left: 165px;
+        margin-top: 10px;
+        width: 450px;
+        border: 2px solid black;
+    }
+    .h2sintesis{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .pduk{
+        margin-top: 80px;
+    }
 }

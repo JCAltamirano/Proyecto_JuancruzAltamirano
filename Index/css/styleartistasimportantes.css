@@ -120,3 +120,61 @@ footer{
     margin-right: 600px;
     margin-top: 50px;
 }
+@media screen and (max-width: 768px) {
+    .h1zonamedia{
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: black;
+        background-color: greenyellow;
+        text-decoration: none;
+        border: 1px solid black;
+        margin: 0px;
+    }
+    .grid-container{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(4, 200px);
+        border: 1px solid black;
+        gap: 1px 1px ;
+        grid-template-areas: 
+        "Duki Trueno"
+        "Duki Trueno"
+        "Rosalia Rauw"
+        "Rosalia Rauw"
+    }
+    .Duki{
+        grid-area: Duki;
+        background-color: yellowgreen;
+        border: 2px solid black;
+    }
+    .Trueno{
+        border: 2px solid black;
+        grid-area: Trueno;
+        background-color: yellowgreen;
+    }
+    .Rosalia{
+        border: 2px solid black;
+        grid-area: Rosalia;
+        background-color: yellowgreen;
+    }
+    .rosaliap{
+        line-height: 17px;
+        font-size: 95%;
+        margin: 0px;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .Rauw{
+        border: 2px solid black;
+        grid-area: Rauw;
+        background-color: yellowgreen;
+    }
+    .rauwp{
+        line-height: 17px;
+        font-size: 95%;
+        margin: 0px;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
